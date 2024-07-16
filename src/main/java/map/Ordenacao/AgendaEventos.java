@@ -47,11 +47,11 @@ public class AgendaEventos {
     AgendaEventos agendaEventos = new AgendaEventos();
 
     // Adiciona eventos à agenda
-    agendaEventos.adicionarEvento(LocalDate.of(2022, Month.JULY, 15), "Conferência de Tecnologia", "Palestrante renomado");
-    agendaEventos.adicionarEvento(LocalDate.of(2022, 7, 9), "Workshop de Programação", "Aula prática de desenvolvimento");
-    agendaEventos.adicionarEvento(LocalDate.of(2000, 1, 10), "Lançamento de Software", "Demonstração da nova versão");
-    agendaEventos.adicionarEvento(LocalDate.of(2023, Month.AUGUST, 28), "Hackathon de Inovação", "Competição de soluções criativas");
-    agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 20), "Seminário de Inteligência Artificial", "Discussão sobre IA avançada");
+    agendaEventos.adicionarEvento(LocalDate.of(2025, Month.JULY, 15), "Conferência de Panificação", "Palestrante renomado");
+    agendaEventos.adicionarEvento(LocalDate.of(2024, 7, 9), "Workshop de Churrasco", "Aula prática de temperos");
+    agendaEventos.adicionarEvento(LocalDate.of(2025, 1, 10), "Confeitaria no dia a dia", "Demonstração da novas tecnicas");
+    agendaEventos.adicionarEvento(LocalDate.of(2024, Month.AUGUST, 28), "Cozinha Nordestina", "Competição de releituras criativas");
+    agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 20), "Cozinha Sulista", "Inovação na Cozinha Sulista");
 
     // Exibe a agenda completa de eventos
     agendaEventos.exibirAgenda();

@@ -113,12 +113,12 @@ public class LivrariaOnline {
   public static void main(String[] args) {
     LivrariaOnline livrariaOnline = new LivrariaOnline();
     // Adiciona os livros à livraria online
-    livrariaOnline.adicionarLivro("https://amzn.to/3EclT8Z", new Livro("1984", "George Orwell", 50d));
-    livrariaOnline.adicionarLivro("https://amzn.to/47Umiun", new Livro("A Revolução dos Bichos", "George Orwell", 7.05d));
-    livrariaOnline.adicionarLivro("https://amzn.to/3L1FFI6", new Livro("Caixa de Pássaros - Bird Box: Não Abra os Olhos", "Josh Malerman", 19.99d));
-    livrariaOnline.adicionarLivro("https://amzn.to/3OYb9jk", new Livro("Malorie", "Josh Malerman", 5d));
-    livrariaOnline.adicionarLivro("https://amzn.to/45HQE1L", new Livro("E Não Sobrou Nenhum", "Agatha Christie", 50d));
-    livrariaOnline.adicionarLivro("https://amzn.to/45u86q4", new Livro("Assassinato no Expresso do Oriente", "Agatha Christie", 5d));
+    livrariaOnline.adicionarLivro("https://acesse.one/E5j0P", new Livro("A Biblioteca da Meia-Noite", " Matt Haig", 28.34d));
+    livrariaOnline.adicionarLivro("https://acesse.one/aGjFz", new Livro("A paciente silenciosa", "Alex Michaelides", 27.54d));
+    livrariaOnline.adicionarLivro("https://acesse.one/KbjiG", new Livro("O Hobbit", "J.R.R. Tolkien", 29.85d));
+    livrariaOnline.adicionarLivro("https://l1nk.dev/olR23", new Livro("Quarta asa: Edição Especial Limitada ", "Rebecca Yarros", 80.33d));
+    livrariaOnline.adicionarLivro("https://acesse.one/9eeFG", new Livro("Mais esperto que o Diabo: O mistério revelado da liberdade e do sucesso", "Napoleon Hill", 18.43d));
+    livrariaOnline.adicionarLivro("https://acesse.one/Mldn0", new Livro("O manuscrito original: As leis do triunfo e do sucesso de Napoleon Hill", "Napoleon Hill", 27.54d));
 
     // Exibe todos os livros ordenados por preço
     System.out.println("Livros ordenados por preço: \n" + livrariaOnline.exibirLivrosOrdenadosPorPreco());
