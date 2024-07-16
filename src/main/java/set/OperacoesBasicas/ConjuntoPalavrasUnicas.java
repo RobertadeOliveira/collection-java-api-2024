@@ -41,31 +41,31 @@ public class ConjuntoPalavrasUnicas {
 
   public static void main(String[] args) {
     // Criando uma instância da classe ConjuntoPalavrasUnicas
-    ConjuntoPalavrasUnicas conjuntoLinguagens = new ConjuntoPalavrasUnicas();
+    ConjuntoPalavrasUnicas conjuntoPalavras = new ConjuntoPalavrasUnicas();
 
-    // Adicionando linguagens únicas ao conjunto
-    conjuntoLinguagens.adicionarPalavra("Água");
-    conjuntoLinguagens.adicionarPalavra("Farinha");
-    conjuntoLinguagens.adicionarPalavra("Fermento");
-    conjuntoLinguagens.adicionarPalavra("Manteiga");
-    conjuntoLinguagens.adicionarPalavra("Açúcar");
-    conjuntoLinguagens.adicionarPalavra("Leite");
+    // Adicionando Palavras únicas ao conjunto
+    conjuntoPalavras.adicionarPalavra("Água");
+    conjuntoPalavras.adicionarPalavra("Farinha");
+    conjuntoPalavras.adicionarPalavra("Fermento");
+    conjuntoPalavras.adicionarPalavra("Manteiga");
+    conjuntoPalavras.adicionarPalavra("Açúcar");
+    conjuntoPalavras.adicionarPalavra("Leite");
 
-    // Exibindo as linguagens únicas no conjunto
-    conjuntoLinguagens.exibirPalavrasUnicas();
+    // Exibindo as Palavras únicas no conjunto
+    conjuntoPalavras.exibirPalavrasUnicas();
 
-    // Removendo uma linguagem do conjunto
-    conjuntoLinguagens.removerPalavra("Leite");
-    conjuntoLinguagens.exibirPalavrasUnicas();
+    // Removendo uma palavra do conjunto
+    conjuntoPalavras.removerPalavra("Leite");
+    conjuntoPalavras.exibirPalavrasUnicas();
 
-    // Removendo uma linguagem inexistente
-    conjuntoLinguagens.removerPalavra("Luva");
+    // Removendo uma palavra inexistente
+    conjuntoPalavras.removerPalavra("Luva");
 
-    // Verificando se uma linguagem está no conjunto
-    System.out.println("A linguagem 'Água' está no conjunto? " + conjuntoLinguagens.verificarPalavra("Água"));
-    System.out.println("A linguagem 'Farinha' está no conjunto? " + conjuntoLinguagens.verificarPalavra("Farinha"));
+    // Verificando se uma palavra está no conjunto
+    System.out.println("A palavra 'Água' está no conjunto? " + conjuntoPalavras.verificarPalavra("Água"));
+    System.out.println("A palavra 'Farinha' está no conjunto? " + conjuntoPalavras.verificarPalavra("Farinha"));
 
-    // Exibindo as linguagens únicas atualizadas no conjunto
-    conjuntoLinguagens.exibirPalavrasUnicas();
+    // Exibindo as Palavras únicas atualizadas no conjunto
+    conjuntoPalavras.exibirPalavrasUnicas();
   }
 }

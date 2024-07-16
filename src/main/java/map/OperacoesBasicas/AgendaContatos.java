@@ -48,17 +48,17 @@ public class AgendaContatos {
     AgendaContatos agendaContatos = new AgendaContatos();
 
     // Adicionar contatos
-    agendaContatos.adicionarContato("Camila", 123456);
-    agendaContatos.adicionarContato("João", 5665);
-    agendaContatos.adicionarContato("Carlos", 1111111);
-    agendaContatos.adicionarContato("Ana", 654987);
-    agendaContatos.adicionarContato("Maria", 1111111);
-    agendaContatos.adicionarContato("Camila", 44444);
+    agendaContatos.adicionarContato("Kamila", 987543265);
+    agendaContatos.adicionarContato("João", 984576321);
+    agendaContatos.adicionarContato("Carlos", 954863214);
+    agendaContatos.adicionarContato("Roberta", 998742546);
+    agendaContatos.adicionarContato("Milena", 996583254);
+    agendaContatos.adicionarContato("kamila", 983254758);
 
     agendaContatos.exibirContatos();
 
     // Remover um contato
-    agendaContatos.removerContato("Maria");
+    agendaContatos.removerContato("Milena");
     agendaContatos.exibirContatos();
 
     // Pesquisar número por nome

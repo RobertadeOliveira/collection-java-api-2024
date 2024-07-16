@@ -74,10 +74,10 @@ public class EstoqueProdutos {
     estoque.exibirProdutos();
 
     // Adiciona produtos ao estoque
-    estoque.adicionarProduto(1L, "Notebook", 1, 1500.0);
-    estoque.adicionarProduto(2L, "Mouse", 5, 25.0);
-    estoque.adicionarProduto(3L, "Monitor", 10, 400.0);
-    estoque.adicionarProduto(4L, "Teclado", 2, 40.0);
+    estoque.adicionarProduto(1L, "Batedeira", 2, 1900.0);
+    estoque.adicionarProduto(2L, "bowl", 7, 35.0);
+    estoque.adicionarProduto(3L, "Laminadora", 1, 1400.0);
+    estoque.adicionarProduto(4L, "Forma", 5, 40.0);
 
     // Exibe os produtos no estoque
     estoque.exibirProdutos();

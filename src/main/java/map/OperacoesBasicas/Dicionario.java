@@ -27,7 +27,7 @@ public class Dicionario {
     if (definicao != null) {
       return definicao;
     }
-    return "Linguagem não encontrada no dicionário.";
+    return "Palavra não encontrada no dicionário.";
   }
 
   public void exibirPalavras() {
@@ -41,23 +41,23 @@ public class Dicionario {
   public static void main(String[] args) {
     Dicionario dicionario = new Dicionario();
 
-    // Adicionar palavras (linguagens de programação)
-    dicionario.adicionarPalavra("java", "Linguagem de programação orientada a objetos.");
-    dicionario.adicionarPalavra("typescript", "Superset da linguagem JavaScript que adiciona tipagem estática.");
-    dicionario.adicionarPalavra("kotlin", "Linguagem moderna de programação para a JVM.");
+    // Adicionar palavras (Palavras de programação)
+    dicionario.adicionarPalavra("fermento", "Agente (uma enzima, um organismo) capaz de provocar a fermentação; levedura.");
+    dicionario.adicionarPalavra("farinha", "Pó obtido pela moagem de certos cereais.");
+    dicionario.adicionarPalavra("manteiga", "Produto alimentar, gorduroso, que se obtém batendo a nata do leite.");
 
     // Exibir todas as palavras
     dicionario.exibirPalavras();
 
     // Pesquisar palavras
-    String definicaoJava = dicionario.pesquisarPorPalavra("java");
-    System.out.println("Definição da linguagem 'java': " + definicaoJava);
+    String definicaoJava = dicionario.pesquisarPorPalavra("fermento");
+    System.out.println("Definição do elemento 'fermento': " + definicaoJava);
 
-    String definicaoCSharp = dicionario.pesquisarPorPalavra("csharp");
+    String definicaoCSharp = dicionario.pesquisarPorPalavra("margarina");
     System.out.println(definicaoCSharp);
 
     // Remover uma palavra
-    dicionario.removerPalavra("typescript");
+    dicionario.removerPalavra("manteiga");
     dicionario.exibirPalavras();
   }
 }
